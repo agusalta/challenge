@@ -13,16 +13,15 @@
 #content-container {
   display: flex;
   justify-content: space-evenly;
-  flex-grow: 1;
+  flex-grow: 2;
 }
 
 #maps-container {
-  background-color: red;
 }
 
 #chart-container,
 #maps-container {
   padding-top: 3rem;
-  border: 1px solid black;
+
   flex: 1;
 }
