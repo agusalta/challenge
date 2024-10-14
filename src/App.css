@@ -1,0 +1,25 @@
+/* BASIC LAYOUT CONTAINERS */
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  margin: 3rem;
+}
+
+#header-container {
+  padding: 1rem 0.5rem;
+  border: 1px solid black;
+}
+
+#content-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+#chart-container,
+#maps-container {
+  border: 1px solid black;
+  flex: 1;
+}
