@@ -7,21 +7,21 @@
   margin: 2rem;
 }
 
-#header-container {
-}
-
 #content-container {
   display: flex;
   justify-content: space-evenly;
-  flex-grow: 2;
-}
-
-#maps-container {
 }
 
 #chart-container,
 #maps-container {
   padding-top: 3rem;
-
   flex: 1;
+}
+
+/* MEDIA QUERIES - RESPONSIVE */
+
+@media (max-width: 768px) {
+  #content-container {
+    flex-direction: column;
+  }
 }

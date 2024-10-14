@@ -11,3 +11,9 @@
   color: #b3b3b3;
   font-weight: 400;
 }
+
+@media (max-width: 768px) {
+  .chart-container {
+    max-width: 100%;
+  }
+}
