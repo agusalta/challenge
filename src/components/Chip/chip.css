@@ -1,0 +1,23 @@
+.chip_text {
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  border: 2px solid black;
+  font-weight: 500;
+}
+
+.chip_success {
+  background-color: #0ddf6e;
+  border-radius: 1rem;
+  padding: 0.3rem 1.5rem;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.chip_info {
+  background-color: #0eb655;
+  border-radius: 1rem;
+  padding: 0.3rem 0.8rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}

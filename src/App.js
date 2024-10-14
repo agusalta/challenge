@@ -1,6 +1,6 @@
 import './App.css';
 import Header from "./layouts/Header/Header"
-import Chart from "./layouts/Chart/Chart"
+import Chart from "./layouts/Charts/Charts"
 import Maps from "./layouts/Maps/Maps"
 
 

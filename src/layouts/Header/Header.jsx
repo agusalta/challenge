@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
+import Chip from "../../components/Chip/Chip";
 
 function Header() {
   return (
@@ -9,8 +10,8 @@ function Header() {
         <div className="top-left">
           <h1 className="top-left_title">Campo 1</h1>
           <FileCopyIcon fontSize="large" style={{ color: "#0c154d" }} />
-          <p className="top-left_state">Ok</p>
-          <p className="top-left_info">Total de granos: 200 (ton)</p>
+          <Chip text="Ok" variant={2} />
+          <Chip text="Total de granos: 200 (ton)" />
         </div>
         <div className="top-right">
           <button className="top-right_btn">Editar establecimiento</button>

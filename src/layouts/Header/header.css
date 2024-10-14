@@ -37,13 +37,6 @@
   text-decoration: none;
 }
 
-.top-left_info {
-  font-weight: 500;
-  border-radius: 1rem;
-  padding: 0.3rem 1rem;
-  border: 2px solid black;
-}
-
 .top-right_btn {
   background-color: #253dd8;
   color: #fff;
