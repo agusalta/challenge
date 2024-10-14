@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   min-height: 90vh;
-  margin: 3rem;
+  margin: 2rem;
 }
 
 #header-container {
@@ -16,9 +16,13 @@
   flex-grow: 1;
 }
 
+#maps-container {
+  background-color: red;
+}
+
 #chart-container,
 #maps-container {
   padding-top: 3rem;
-
+  border: 1px solid black;
   flex: 1;
 }
