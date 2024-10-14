@@ -4,7 +4,7 @@
   border-radius: 0.4rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #maps-container {
     height: 100%;
   }
